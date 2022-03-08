@@ -52,4 +52,20 @@ public class Solution {
         }
         return idx + 1;
     }
+
+    /**
+     * [0,0,1,1,1,2,2,3,3,4]
+     * Два указателя. 1ый указывает на индекс уникального элемента, 2ой идет по массиву.
+     * Если элемент не равен предыдущему, то этот элмент ставиться по индексу 1го указателя
+     */
+    public int removeDuplicates(int[] nums) {
+        int l = 1;
+        for (int r = 1; r < nums.length; r++) {
+            if(nums[r] != nums[r - 1]) {
+                nums[l] = nums[r];
+                l++;
+            }
+        }
+        return l++;
+    }
 }
