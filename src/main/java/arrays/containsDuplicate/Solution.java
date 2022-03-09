@@ -5,8 +5,6 @@ import java.util.Set;
 
 /**
  * @see <a href="https://leetcode.com/problems/contains-duplicate/"></a>
- * <p>
- * Use 2 pointer
  */
 public class Solution {
     public boolean containsDuplicate(int[] nums) {
