@@ -3,7 +3,7 @@ package arrays.maximumSubarray;
 /**
  * @see <a href="https://leetcode.com/problems/maximum-subarray/"></a>
  *
- * slider window, 2 pointer. When prefix negative, we can delete it
+ * slider window. When prefix negative, we can delete it
  */
 public class Solution {
 
