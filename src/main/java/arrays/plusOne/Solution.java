@@ -19,6 +19,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        plusOne(new int[]{4, 3, 2, 1});
+        plusOne(new int[]{4, 3, 2, 9});
     }
 }
