@@ -2,6 +2,8 @@ package arrays.moveZero;
 
 /**
  * @see <a href="https://leetcode.com/problems/move-zeroes/"></a>
+ *
+ * 2 pointers
  */
 public class Solution {
     public static void moveZeroes(int[] nums) {
